@@ -1,0 +1,20 @@
+{
+    "port": 8611,
+    "backend": "echo",
+    "input": {
+        "device": "default",
+        "sampleRate": 24000,
+        "bufferSize": 1200
+    },
+    "output": {
+        "device": "default",
+        "sampleRate": 24000,
+        "bufferSize": 1200
+    },
+    "echo": {
+        "noiseLevel": 0.1,
+        "lowCut": 250.0,
+        "highCut": 2750.0,
+        "bpfOrder": 8
+    }
+}
