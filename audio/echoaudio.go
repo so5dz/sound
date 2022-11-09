@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/iskrapw/filters/butterworth"
+	"github.com/iskrapw/dsp/filter/butterworth"
 	soundconfig "github.com/iskrapw/sound/config"
 	"github.com/iskrapw/utils/misc"
 )
@@ -26,7 +26,7 @@ type EchoAudio struct {
 	noiseLevel       float64
 	highCut          float64
 	lowCut           float64
-	bandPassFilter   butterworth.ButterworthBandPass
+	bandPassFilter   butterworth.BandPass
 }
 
 func (a *EchoAudio) Initialize(config soundconfig.Config) error {

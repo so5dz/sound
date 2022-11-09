@@ -2,7 +2,7 @@ github.com/gordonklaus/portaudio v0.0.0-20221027163845-7c3b689db3cc h1:yYLpN7bJx
 github.com/gordonklaus/portaudio v0.0.0-20221027163845-7c3b689db3cc/go.mod h1:WY8R6YKlI2ZI3UyzFk7P6yGSuS+hFwNtEzrexRyD7Es=
 github.com/iskrapw/connections v0.1.0 h1:0PH9NoCiD5MU6EAQ7jSH77vH82blD+hrK8+hmsgcT7w=
 github.com/iskrapw/connections v0.1.0/go.mod h1:+t3pQoAy2sC7TayM1npnuK/3t6/juZMn4KbJ8rEspPM=
-github.com/iskrapw/filters v0.1.0 h1:IG0PtMZHyRM3t9lIQgSATCSxpDvHsAKmZg4aLndXDxA=
-github.com/iskrapw/filters v0.1.0/go.mod h1:SrIKmI8PjRkw6zVfcR18iFHGw1sUZmwWp1XHXEYVYqE=
+github.com/iskrapw/dsp v0.1.2 h1:aTZMzXmlTVQ7ylAIiTaZ60c9Y0J3kCig1M58rIHquv0=
+github.com/iskrapw/dsp v0.1.2/go.mod h1:A8OfmVK2J4j9LnkJtwBOMpODvnrRadUZTY3mZ2YT2as=
 github.com/iskrapw/utils v0.1.0 h1:/gC763Oj0ygZ9ZseyRiXNfmG+1vtx4MH+/usMm50Cgk=
 github.com/iskrapw/utils v0.1.0/go.mod h1:fMkO11bOYRPEVBwpxlLpJgRGlU2jN/9mABeb376Z2x4=
