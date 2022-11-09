@@ -5,7 +5,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/iskrapw/network/tcp"
+	"github.com/iskrapw/network/server"
+	"github.com/iskrapw/network/server/tcp"
 	"github.com/iskrapw/sound/audio"
 	soundconfig "github.com/iskrapw/sound/config"
 	utils "github.com/iskrapw/utils/config"
@@ -32,7 +33,8 @@ func mainWithError() error {
 	}
 
 	log.Println("Opening TCP server on port", cfg.Port)
-	tcpServer := tcp.NewServer(cfg.Port, tcp.TCPConnectionMode_Stream)
+	tcpServer := tcp.StreamServer{}
+	tcpServer.Initialize(cfg.Port)
 
 	networkBuffer := convert.ByteFloatBuffer{}
 
@@ -53,7 +55,7 @@ func mainWithError() error {
 		}
 	})
 
-	tcpServer.OnReceive(func(c tcp.Remote, b []byte) {
+	tcpServer.OnReceive(func(r server.Remote, b []byte) {
 		networkBuffer.Put(b)
 	})
 
