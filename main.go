@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/iskrapw/connections/tcp"
+	"github.com/iskrapw/network/tcp"
 	"github.com/iskrapw/sound/audio"
 	soundconfig "github.com/iskrapw/sound/config"
 	utils "github.com/iskrapw/utils/config"
