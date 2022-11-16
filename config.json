@@ -1,6 +1,6 @@
 {
     "port": 8611,
-    "backend": "echo",
+    "backend": "file",
     "input": {
         "device": "default",
         "sampleRate": 24000,
@@ -16,5 +16,8 @@
         "lowCut": 250.0,
         "highCut": 2750.0,
         "bpfOrder": 8
+    },
+    "file": {
+        "input": "tnctest.raw"
     }
 }

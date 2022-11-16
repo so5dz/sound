@@ -90,6 +90,10 @@ func getAudioPort(cfg soundconfig.Config) (audio.Audio, error) {
 		ap := &audio.PortAudio{}
 		return ap, nil
 
+	case "FILE":
+		ap := &audio.FileAudio{}
+		return ap, nil
+
 	case "ECHO":
 		break
 	}

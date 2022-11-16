@@ -6,6 +6,7 @@ type Config struct {
 	Input   Device     `json:"input"`
 	Output  Device     `json:"output"`
 	Echo    EchoConfig `json:"echo"`
+	File    FileConfig `json:"file"`
 }
 
 type Device struct {
@@ -19,4 +20,8 @@ type EchoConfig struct {
 	LowCut     float64 `json:"lowCut"`
 	HighCut    float64 `json:"highCut"`
 	BPFOrder   int     `json:"bpfOrder"`
+}
+
+type FileConfig struct {
+	Input string `json:"input"`
 }
