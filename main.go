@@ -14,6 +14,7 @@ import (
 	"github.com/so5dz/utils/misc"
 )
 
+const _LoadConfigError = "unable to load/read configuration file"
 const _AudioSetupError = "unable to setup audio"
 
 func main() {
@@ -23,7 +24,7 @@ func main() {
 func mainWithError() error {
 	cfg, err := utils.LoadConfigFromArgs[soundconfig.Config]()
 	if err != nil {
-		return err
+		misc.WrapError(_LoadConfigError, err)
 	}
 
 	log.Println("Opening audio port")

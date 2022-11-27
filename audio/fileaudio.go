@@ -9,6 +9,8 @@ import (
 	"github.com/so5dz/utils/misc"
 )
 
+const _FileOpenError = "unable to open specified file"
+
 type FileAudio struct {
 	operate              bool
 	sampleBuffer         []Sample
@@ -27,7 +29,7 @@ func (a *FileAudio) Initialize(config soundconfig.Config) error {
 
 	err := a.loadFileIntoBuffer(config.File.Input)
 	if err != nil {
-		return misc.WrapError("unable to open specified file", err)
+		return misc.WrapError(_FileOpenError, err)
 	}
 
 	a.inputBufferSize = config.Input.BufferSize
