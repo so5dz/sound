@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/iskrapw/dsp/filter/butterworth"
-	soundconfig "github.com/iskrapw/sound/config"
-	"github.com/iskrapw/utils/misc"
+	"github.com/so5dz/dsp/filter/butterworth"
+	soundconfig "github.com/so5dz/sound/config"
+	"github.com/so5dz/utils/misc"
 )
 
 type EchoAudio struct {

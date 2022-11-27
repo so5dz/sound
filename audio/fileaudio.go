@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"math"
 
-	soundconfig "github.com/iskrapw/sound/config"
-	"github.com/iskrapw/utils/misc"
+	soundconfig "github.com/so5dz/sound/config"
+	"github.com/so5dz/utils/misc"
 )
 
 type FileAudio struct {

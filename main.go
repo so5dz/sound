@@ -5,13 +5,13 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/iskrapw/network/server"
-	"github.com/iskrapw/network/server/tcp"
-	"github.com/iskrapw/sound/audio"
-	soundconfig "github.com/iskrapw/sound/config"
-	utils "github.com/iskrapw/utils/config"
-	"github.com/iskrapw/utils/convert"
-	"github.com/iskrapw/utils/misc"
+	"github.com/so5dz/network/server"
+	"github.com/so5dz/network/server/tcp"
+	"github.com/so5dz/sound/audio"
+	soundconfig "github.com/so5dz/sound/config"
+	utils "github.com/so5dz/utils/config"
+	"github.com/so5dz/utils/convert"
+	"github.com/so5dz/utils/misc"
 )
 
 const _AudioSetupError = "unable to setup audio"

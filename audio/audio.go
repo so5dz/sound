@@ -1,7 +1,7 @@
 package audio
 
 import (
-	soundconfig "github.com/iskrapw/sound/config"
+	soundconfig "github.com/so5dz/sound/config"
 )
 
 type Sample float64
