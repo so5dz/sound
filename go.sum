@@ -1,8 +1,8 @@
 github.com/gordonklaus/portaudio v0.0.0-20221027163845-7c3b689db3cc h1:yYLpN7bJxKYILKnk20oczGQOQd2h3/7z7/cxdD9Se/I=
 github.com/gordonklaus/portaudio v0.0.0-20221027163845-7c3b689db3cc/go.mod h1:WY8R6YKlI2ZI3UyzFk7P6yGSuS+hFwNtEzrexRyD7Es=
-github.com/so5dz/dsp v0.1.2 h1:aTZMzXmlTVQ7ylAIiTaZ60c9Y0J3kCig1M58rIHquv0=
-github.com/so5dz/dsp v0.1.2/go.mod h1:A8OfmVK2J4j9LnkJtwBOMpODvnrRadUZTY3mZ2YT2as=
-github.com/so5dz/network v0.2.0 h1:PZn5nNzIfItzWM+rcQZa+Tnv6stz0zdWhbwBOzA8OtM=
-github.com/so5dz/network v0.2.0/go.mod h1:oG+c4RbImEx04taEOmU9HaObbmJsAze+zhnJEAWV4l4=
-github.com/so5dz/utils v0.1.0 h1:/gC763Oj0ygZ9ZseyRiXNfmG+1vtx4MH+/usMm50Cgk=
-github.com/so5dz/utils v0.1.0/go.mod h1:fMkO11bOYRPEVBwpxlLpJgRGlU2jN/9mABeb376Z2x4=
+github.com/so5dz/dsp v0.2.0 h1:Vqm907VzNx/73U21Exd1YRCrymlX3cgMjzsIf8gHwX4=
+github.com/so5dz/dsp v0.2.0/go.mod h1:Li9jPDX2fcAOnwDCfKxm08YI9hVxLrkdtu/KSP17O7o=
+github.com/so5dz/network v0.3.0 h1:lr1FWggR4gR7082AUcq8xwULqZTwGZi1x3lCDD9l/AA=
+github.com/so5dz/network v0.3.0/go.mod h1:TIR7VMFkkeHNlrajG7ZrG1T9N4ZdIIRMzeYmdvhFq6M=
+github.com/so5dz/utils v0.2.0 h1:Y+fjLoZ3goXoIj/H9otESTq8YVwSngZH3ww+Vs5sfqs=
+github.com/so5dz/utils v0.2.0/go.mod h1:cqCMxkhKHVRKZwYcNwMD9pFMq9IHkQ5swaszjAjXX3Q=
